@@ -18,6 +18,8 @@ values ('9515356545', 'Vasil', 'Grigorov', '', 'Italy', '0895546456', 'vas@gmail
 insert into employee (egn, first_name, last_name, addl_name, address, phone, email, job_desc, dep_id, date_started, salary, mng_id)
 values ('9713156145', 'Petar', 'Angelov', '', 'Bulgaria', '0895454556', 'Pet@gmail.com', 'Credit operator', 2 , sysdate - 10, 1000, 2);
 
+insert into employee (egn, first_name, last_name, addl_name, address, phone, email, job_desc, dep_id, date_started, salary, mng_id)
+values ('0040044004', 'Atilla', 'Mehmed', '', 'Bulgaria', '0888888888', 'am@gmail.com', 'The fullest stack', 1 , to_date('20051017','YYYYmmDD'), 6000, null);
 
 insert into customer (egn, first_name, last_name, addl_name, address, phone, email)
 values ('9213156145', 'Ivan', 'Ivanov', '', 'France', '0892165', 'iv@gmail.com');
