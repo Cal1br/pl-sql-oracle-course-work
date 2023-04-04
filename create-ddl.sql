@@ -54,7 +54,4 @@ CREATE TABLE customer
 ALTER TABLE customer
     ADD CONSTRAINT customer_pk PRIMARY KEY (cust_id);
 
-
-
-SELECT *
-FROM USER_CONSTRAINTS;
+select * from customer;
